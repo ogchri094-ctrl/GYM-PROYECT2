@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UrbanFit</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Remix Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- ================= HEADER ================= -->
+<header class="header">
+
+  <h1 class="logo">UrbanFit</h1>
+
+  <!-- BOTÓN HAMBURGUESA -->
+  <div class="menu-toggle" id="menu-toggle">
+    <span></span>
+    <span></span>
+  </div>
+
+  <!-- MENÚ OVERLAY -->
+  <nav class="menu-overlay" id="menu-overlay">
+    <ul>
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#nosotros">Nosotros</a></li>
+      <li><a href="#servicios">Servicios</a></li>
+      <li><a href="#planes">Planes</a></li>
+      <li><a href="#schedule">Horarios</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+
+</header>
+
+<!-- AUDIO CLICK -->
+<audio id="clickSound" src="click.mp3"></audio>
+
+
+<!-- ================= HERO ================= -->
+<section class="seccion1" id="inicio">
+
+  <div class="inicio">
+    <h4>Sin Límites</h4>
+    <h2>Donde <strong>Nace</strong> La <strong>Fuerza.</strong></h2>
+    <p>Cada entrenamiento es un paso más hacia la mejor versión de ti mismo.</p>
+
+    <div class="boton-1">
+      <button class="btn-1">Inscribirme</button>
+      <button class="btn-2">Ver Planes</button>
+    </div>
+
+    <div class="planes">
+      <h3>+1000 Clientes</h3>
+      <h3>+20 Servicios</h3>
+      <h3>+20 Coaches Certificados</h3>
+    </div>
+  </div>
+
+  <div class="img-1">
+    <img src="gym2.jpg" alt="Gym">
+  </div>
+
+</section>
+
+<!-- ================= MARQUEE ================= -->
+<section class="seccion2">
+  <div class="workout">
+    <h2>WORKOUT</h2>
+    <h2>JUST DO IT</h2>
+    <h2>FITNESS</h2>
+    <h2>JUST DO IT</h2>
+    <h2>WORKOUT</h2>
+    <h2>JUST DO IT</h2>
+    <h2>FITNESS</h2>
+    <h2>JUST DO IT</h2>
+  </div>
+</section>
+
+<!-- ================= SECCION 4 ================= -->
+<section class="seccion4" id="nosotros">
+
+  <div class="Gym">
+    <h2>Somos tu mejor versión</h2>
+    <p>Más que un gimnasio, una comunidad. Somos tu mejor versión.</p>
+    <button>Ver Servicios</button>
+  </div>
+
+  <div class="img-2">
+    <img src="GymWhite.jpg" alt="Gym">
+  </div>
+
+  <div class="gym-2">
+    <h2>Más que un gimnasio, una comunidad</h2>
+    <p>
+      En nuestro gimnasio encontrarás un espacio diseñado para motivarte,
+      entrenar con disciplina y alcanzar tus objetivos acompañado de
+      entrenadores certificados y una comunidad que te impulsa cada día.
+    </p>
+    <button>Ver Horarios</button>
+  </div>
+
+</section>
+
+<!-- ================= PROGRAMAS ================= -->
+<section class="seccion5" id="planes">
+
+  <div class="programas">
+    <h2>Power Training Program</h2>
+    <p>
+      Nuestros programas están diseñados para todos los niveles,
+      combinando fuerza, resistencia y bienestar.
+    </p>
+  </div>
+
+  <div class="imagenes">
+
+    <img src="GymBlack1.avif" alt="Gym">
+
+    <form class="formulario-fitness">
+      <h3>Evaluación Fitness</h3>
+      <input type="number" placeholder="Edad">
+      <input type="number" placeholder="Peso (kg)">
+      <input type="number" placeholder="Altura (cm)">
+      <select>
+        <option>Objetivo</option>
+        <option>Perder peso</option>
+        <option>Ganar músculo</option>
+        <option>Tonificar</option>
+      </select>
+      <button>Enviar</button>
+    </form>
+
+    <img src="GymBlack3.webp" alt="Gym">
+
+  </div>
+
+</section>
+
+<!-- ================= SERVICES ================= -->
+<section class="services" id="services">
+
+  <h2>Nuestros Servicios</h2>
+  <p class="services-text">
+    Programas diseñados para transformar tu cuerpo y mejorar tu rendimiento.
+  </p>
+
+  <div class="services-grid">
+
+    <div class="service-card">
+      <i class="ri-fire-fill service-icon"></i>
+      <h3>Entrenamiento Personal</h3>
+      <p>Rutinas personalizadas según tus objetivos.</p>
+    </div>
+
+    <div class="service-card">
+      <i class="ri-heart-pulse-fill service-icon"></i>
+      <h3>Cross Training</h3>
+      <p>Mejora tu fuerza y resistencia.</p>
+    </div>
+
+    <div class="service-card">
+      <i class="ri-mental-health-fill service-icon"></i>
+      <h3>Yoga & Stretching</h3>
+      <p>Equilibrio cuerpo y mente.</p>
+    </div>
+
+    <div class="service-card">
+      <i class="ri-bike-fill service-icon"></i>
+      <h3>Cardio & Spinning</h3>
+      <p>Entrenamientos dinámicos.</p>
+    </div>
+
+  </div>
+
+</section>
+
+<!-- ================= SCHEDULE ================= -->
+<section class="schedule" id="schedule">
+
+  <h2>Horarios de Entrenamiento</h2>
+  <p class="schedule-text">Consulta nuestros horarios.</p>
+
+  <div class="days">
+    <button class="day-btn active" data-day="lunes">Lunes</button>
+    <button class="day-btn" data-day="martes">Martes</button>
+    <button class="day-btn" data-day="miercoles">Miércoles</button>
+    <button class="day-btn" data-day="jueves">Jueves</button>
+    <button class="day-btn" data-day="viernes">Viernes</button>
+  </div>
+
+  <div class="schedule-table">
+
+    <div class="schedule-day active" id="lunes">
+      <div class="row"><span>07:00 - 08:00</span><span>Cross Training</span></div>
+      <div class="row"><span>09:00 - 10:00</span><span>Cardio</span></div>
+      <div class="row"><span>18:00 - 19:00</span><span>Personal</span></div>
+    </div>
+
+    <div class="schedule-day" id="martes">
+      <div class="row"><span>07:00 - 08:00</span><span>Yoga</span></div>
+      <div class="row"><span>10:00 - 11:00</span><span>Spinning</span></div>
+    </div>
+
+    <div class="schedule-day" id="miercoles">
+      <div class="row"><span>08:00 - 09:00</span><span>Cardio</span></div>
+      <div class="row"><span>19:00 - 20:00</span><span>Yoga</span></div>
+    </div>
+
+    <div class="schedule-day" id="jueves">
+      <div class="row"><span>07:00 - 08:00</span><span>Spinning</span></div>
+      <div class="row"><span>18:00 - 19:00</span><span>Cross</span></div>
+    </div>
+
+    <div class="schedule-day" id="viernes">
+      <div class="row"><span>09:00 - 10:00</span><span>Funcional</span></div>
+      <div class="row"><span>18:00 - 19:00</span><span>Yoga</span></div>
+    </div>
+
+  </div>
+
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer" id="contacto">
+
+  <div class="footer-container">
+
+    <div class="footer-box">
+      <h3>PowerGym</h3>
+      <p>Transforma tu cuerpo y mente.</p>
+    </div>
+
+    <div class="footer-box">
+      <h4>Enlaces</h4>
+      <ul>
+        <li><a href="#services">Servicios</a></li>
+        <li><a href="#schedule">Horarios</a></li>
+        <li><a href="#planes">Planes</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-box">
+      <h4>Contacto</h4>
+      <p><i class="ri-map-pin-line"></i> CDMX</p>
+      <p><i class="ri-phone-line"></i> +52 55 1234 5678</p>
+    </div>
+
+    <div class="footer-box">
+      <h4>Síguenos</h4>
+      <div class="social">
+        <a href="#"><i class="ri-facebook-fill"></i></a>
+        <a href="#"><i class="ri-instagram-line"></i></a>
+        <a href="#"><i class="ri-youtube-line"></i></a>
+        <a href="#"><i class="ri-tiktok-line"></i></a>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2026 PowerGym</p>
+  </div>
+
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
